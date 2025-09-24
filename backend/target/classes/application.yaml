@@ -1,0 +1,27 @@
+server:
+  port: 9002
+
+logging:
+  level:
+    root: info
+
+langchain4j:
+  open-ai:
+    streaming-chat-model:
+      api-key: ${QNY_KEY}
+      base-url: https://openai.qiniu.com/v1
+      model-name: qwen3-max
+    embedding-model:
+      api-key: ${ALI_KEY}
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      model-name: text-embedding-v3
+#      log-requests: true   #球球日志和相应日志
+#      log-responses: true
+
+spring:
+  data:
+    mongodb:
+      uri:  mongodb://localhost:27017/qny_chat_memoey
+
+
+
