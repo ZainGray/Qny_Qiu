@@ -2,9 +2,9 @@
 
 > 与历史名人和文学角色进行沉浸式语音对话的AI应用
 >
-> ![home](图片\home.png)
+ ![home](图片/home.png)
 
-![chat](图片\chat.png)
+![chat](图片/chat.png)
 
 ## ✨ 项目特色
 
